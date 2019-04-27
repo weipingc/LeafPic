@@ -13,7 +13,7 @@ repositories {
 android {
     compileSdkVersion project.sdkVersion
     defaultConfig {
-        applicationId "org.horaapps.leafpic"
+        applicationId "org.weikev.ironaid"
         minSdkVersion 19
         targetSdkVersion project.sdkVersion
         versionName "v0.7-alpha-2"
@@ -51,13 +51,13 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            resValue "string", "app_name", "LeafPic"
+            resValue "string", "app_name", "IronAid"
             signingConfig signingConfigs.release
         }
 
         debug {
             applicationIdSuffix ".debug"
-            resValue "string", "app_name", "LeafPic (debug)"
+            resValue "string", "app_name", "IronAid (debug)"
         }
     }
 
